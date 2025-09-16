@@ -57,7 +57,7 @@ public class ConsoleController {
         String macAddress = enterStringField("device", "mac");
         String status = enterStringField("device", "status");
         String type = enterStringField("device", "type");
-        return new Device(name, ipAddress, macAddress, status, type);
+        return new Device(name, ipAddress, macAddress, type,status);
     }
 
     public DeviceConnection readNewConnection() {
