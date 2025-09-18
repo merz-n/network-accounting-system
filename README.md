@@ -1,4 +1,3 @@
-
 # Network Accounting System
 
 A simple Java console application to manage **networks**, **devices**, and **device connections** in PostgreSQL.  
